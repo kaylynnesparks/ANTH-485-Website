@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
+    
     <title>Portfolio 2</title>
 
     <!-- Bootstrap core CSS -->
@@ -22,8 +25,7 @@
     <meta charset='utf-8' />
     <title>Points on a map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
+    
 
   </head>
 
@@ -72,45 +74,23 @@
         </h2>
         <hr class="divider">
       
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id='map'></div>
-    <script>
-    mapboxgl.accessToken = '{pk.eyJ1Ijoia3NwYXJrcyIsImEiOiJjajhvcHEza2UwNXdyMzNubmpvYjJ5NDFoIn0.NSoA3adHsE984bZbH97DEw}'; // replace this with your access token
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: '{mapbox://styles/ksparks/cj8yr7qywibaj2smf8r2b8oo0}' // replace this with your style URL
-    });
-    // code from the next step will go here
-    </script>
+  <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia3NwYXJrcyIsImEiOiJjajhvcHEza2UwNXdyMzNubmpvYjJ5NDFoIn0.NSoA3adHsE984bZbH97DEw';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9'
+});
+</script>
+
       </div>
 <div class="container">
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Voyant expresses the key interests of parks in Victoria
+        <h2 class="text-center text-lg text-uppercase my-0">Voyant expresses the <strong>key interests of parks in Victoria</strong>
         </h2>
+         <hr class="divider">
         <img class="card-img img-fluid w-100" src="img/voyant.JPG" alt="">
-        <hr class="divider">
-       
-        <!--  <div class="card card-inverse">
-          <img class="card-img img-fluid w-100" src="img/slide-2.jpg" alt="">
-          <div class="card-img-overlay bg-overlay">
-            <h2 class="card-title text-shadow text-white text-uppercase mb-0">Post Title</h2>
-            <h4 class="text-shadow text-white">March 1, 2017</h4>
-            <p class="lead card-text text-shadow text-white w-50 d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellat provident quo aliquam eius ea, animi porro magnam totam dolor nam error quas labore eveniet dicta nostrum inventore veniam. Ipsam?</p>
-            <a href="#" class="btn btn-secondary">Read More</a> -->
           </div>
       </div>
 
