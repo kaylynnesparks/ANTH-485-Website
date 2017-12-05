@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio 3 Reflection</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Portfolio 2 Reflection</div>
+    <!--<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Portfolio 3 Reflection</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Portfolio 1.html">Portfolio 1</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Portfolio 2.html">Portfolio 2</a>
+            </li>
+             <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="bg-faded p-4 my-4">
+        <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">
+          <strong>Berry the Bluebird</strong>
+        </h2>
+        <hr class="divider">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/western blue bird.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <p>The story that I wrote for portfolio 3 is about a bird living in a Garry Oak meadow. It is becoming severely degraded, so much so that all of his friends left the meadow to find new garry oak ecosystems to live in. A lot of the story is about Berry flying around in-between their homes. Each home is causing problems for the animals in one way or another, and the ecosystems are so fragmented that Berry has to fly for a long time to get from one to the other; these things are indicative of the unhealthy garry oak ecosystems that are scattered around the Saanich Peninsula.</p> 
+
+<p>	I think this project was successful because how interactive it is; I made sure there were lots of options for users to choose, although it would be cooler if there were multiple endings to the story. I had a lot of plans for this Twine project but I could not figure out how to insert the audio clips I was going to create, so it became a visual experience instead of an audio-visual one. In the future. I also wish that I had made a happier ending to the story. I would have liked to expanded the story to include Berry maybe watching some ecologists restore his Garry Oak ecosystem, but I was too crunched for time and I wasn’t sure how to make it interactive in an interesting way. Ultimately, a better plan and a head-start have solved these issues and I could have created a more entertaining, functional Twine story.</p>
+
+          </div>
+        </div>
+      </div>
+
+     
+         
+         </div>
+    <!-- /.container -->
+
+    <footer class="bg-faded text-center py-5">
+      <div class="container">
+        <p class="m-0">Copyright &copy; ANTH-485-Website</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
